@@ -1,0 +1,5 @@
+# The libmicroros build runs these through /bin/sh and make on Linux (including
+# WSL); CRLF line endings from a Windows git checkout break them.
+*.sh text eol=lf
+*.mk text eol=lf
+*.meta text eol=lf

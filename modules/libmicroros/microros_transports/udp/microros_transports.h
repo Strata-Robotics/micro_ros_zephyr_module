@@ -18,8 +18,8 @@
 #include <unistd.h>
 
 #include <sys/types.h>
-#include <posix/sys/socket.h>
-#include <posix/poll.h>
+#include <zephyr/posix/sys/socket.h>
+#include <zephyr/posix/poll.h>
 
 #ifdef __cplusplus
 extern "C"
